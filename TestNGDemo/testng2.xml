@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="4">
+
+<!--    <parameter name="URL" value="www.google.com">-->
+<listeners>
+    <listener class-name="TestNGDemoPrograms.Listeners" />
+</listeners>
+
+    <test verbose="2" name="/home/ankur/Documents/Selenium 4.0/TestNGDemo" parallel="classes" thread-count="4">
+        <parameter name="URL" value="www.yahoo.com" />
+        <parameter name="APIKey" value="demoAPIKey" />
+       <classes>
+           <class name="TestNGDemoPrograms.TestNGTest" />
+           <class name="TestNGDemoPrograms.SecondTest" />
+
+       </classes>
+    </test>
+
+    <test name="2ndFolder">
+        <parameter name="URL" value="www.google.com" />
+        <classes>
+            <class name="TestNGDemoPrograms.ThirdTest" />
+            <class name="TestNGDemoPrograms.FourthTest" />
+
+        </classes>
+    </test>
+
+</suite>

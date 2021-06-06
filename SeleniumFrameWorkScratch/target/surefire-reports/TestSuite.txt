@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 1.719 s <<< FAILURE! - in TestSuite
+Academy.HomePage.TearUp  Time elapsed: 0.718 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.HomePage.TearUp(HomePage.java:24)
+
+ValidateHome.HomePageValidateHomeButton.TearUp  Time elapsed: 0.284 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ValidateHome.HomePageValidateHomeButton.TearUp(HomePageValidateHomeButton.java:21)
+
+ValidateTitle.HomePageValidateTitle.TearUp  Time elapsed: 0.51 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ValidateTitle.HomePageValidateTitle.TearUp(HomePageValidateTitle.java:24)
+

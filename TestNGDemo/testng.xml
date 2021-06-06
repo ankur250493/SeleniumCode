@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test verbose="2" name="/home/ankur/Documents/Selenium 4.0/TestNGDemo">-->
+<!--        <classes>-->
+<!--            <class name="TestNGDemoPrograms.TestNGTest">-->
+
+<!--                <methods>-->
+<!--                    <include name="Demo" />-->
+<!--                    <include name="SecondTest" />-->
+
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="TestNGDemoPrograms.SecondTest">-->
+<!--                <methods>-->
+<!--                <include name="FirstMethod" />-->
+<!--                <include name="SecondMethod" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="secondFolder">
+        <classes>
+<!--            <class name="TestNGDemoPrograms.ThirdTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="Login" />-->
+<!--                    <exclude name="Login2" />-->
+<!--                    <include name="Login3" />-->
+<!--                </methods>-->
+<!--            </class>-->
+
+            <class name="TestNGDemoPrograms.FourthTest">
+                <methods>
+
+                    <include name="logout2" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
